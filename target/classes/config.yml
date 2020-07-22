@@ -1,0 +1,25 @@
+mongo:
+  uri: "mongodb://localhost"
+  database: "PrisonCells"
+regions:
+  wand-material: BONE
+worldguard: true
+cells:
+  default-rental-price: 1000.0
+  door-open-time: 2
+  default-rental-time: 1day
+  max-rental-time: 28day
+  unclaim:
+    refund: true
+    clear-chest: false
+  signs:
+    claimed-lines:
+      - "{CELL_ID}"
+      - "{CELL_TENANT}"
+      - "Owned Until:"
+      - "{CELL_REMAINING_TIME}"
+    vacant-lines:
+      - "[Available]"
+      - ""
+      - "COST"
+      - "${CELL_RENT}"

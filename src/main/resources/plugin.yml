@@ -1,0 +1,6 @@
+main: com.young.prisoncells.PrisonCells
+name: PrisonCells
+version: 1.0.0
+author: "Young (Calvin)"
+description: "A fully self contained prison cell system."
+depend: ["Vault", "WorldGuard"]
